@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage line-rate="0" branch-rate="0" lines-covered="0" lines-valid="415" branches-covered="0" branches-valid="180" complexity="170" version="0" timestamp="1640470879">
+  <sources />
+  <packages>
+    <package name="AltCover.Monitor" line-rate="0" branch-rate="0" complexity="30">
+      <classes>
+        <class name="AltCover.Carrier" filename="/_/AltCover.Monitor/Monitor.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="Add" signature="(T)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+            <method name="Dispose" signature="(System.Boolean)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+            <method name="Dispose" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="AltCover.Monitor" filename="/_/AltCover.Monitor/Monitor.cs" line-rate="1" branch-rate="1" complexity="9">
+          <methods>
+            <method name="TryGetPointTotals" signature="(AltCover.PointCount&amp;)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+            <method name="CountVisitPoints" signature="(System.Xml.XmlDocument)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+            <method name="TryGetVisitTotals" signature="(AltCover.PointCount&amp;)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+            <method name=".cctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="TypeInstance" signature="()" line-rate="1" branch-rate="1" complexity="8">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+      </classes>
+    </package>
+    <package name="Spekt.TestLogger" line-rate="0" branch-rate="0" complexity="140">
+      <classes>
+        <class name="Spekt.TestLogger.Core.LoggerConfiguration" filename="/home/runner/work/testlogger/testlogger/src/TestLogger/Core/LoggerConfiguration.cs" line-rate="1" branch-rate="1" complexity="NaN">
+          <methods>
+            <method name=".ctor" signature="(System.Collections.Generic.Dictionary`2&lt;System.String,System.String&gt;)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+            <method name="LogFilePath" signature="()" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+            <method name="GetFormattedLogFilePath" signature="(Spekt.TestLogger.Core.TestRunConfiguration)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Spekt.TestLogger.Core.TestCaseNameParser" filename="/home/runner/work/testlogger/testlogger/src/TestLogger/Core/TestCaseNameParser.cs" line-rate="1" branch-rate="1" complexity="NaN">
+          <methods>
+            <method name="Parse" signature="(System.String)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+            <method name=".ctor" signature="(System.String,System.String,System.String)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Spekt.TestLogger.Core.TestResultInfo" filename="/home/runner/work/testlogger/testlogger/src/TestLogger/Core/TestResultInfo.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(Microsoft.VisualStudio.TestPlatform.ObjectModel.TestResult,System.String,System.String,System.String)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+            <method name="TestCase" signature="()" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+            <method name="AssemblyPath" signature="()" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+            <method name="FullTypeName" signature="()" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+            <method name="StartTime" signature="()" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+            <method name="EndTime" signature="()" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+            <method name="Duration" signature="()" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+            <method name="ErrorMessage" signature="()" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+            <method name="ErrorStackTrace" signature="()" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+            <method name="Messages" signature="()" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+            <method name="Traits" signature="()" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+            <method name="Result" signature="()" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+            <method name="GetHashCode" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="Equals" signature="(System.Object)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Spekt.TestLogger.Core.TestResultStore" filename="/home/runner/work/testlogger/testlogger/src/TestLogger/Core/TestResultStore.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="Add" signature="(Spekt.TestLogger.Core.TestResultInfo)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+            <method name="Add" signature="(Spekt.TestLogger.Core.TestMessageInfo)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+            <method name="Pop" signature="(System.Collections.Generic.List`1&lt;Spekt.TestLogger.Core.TestResultInfo&gt;&amp;,System.Collections.Generic.List`1&lt;Spekt.TestLogger.Core.TestMessageInfo&gt;&amp;)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Spekt.TestLogger.Core.TestRunBuilder" filename="/home/runner/work/testlogger/testlogger/src/TestLogger/Core/TestRunBuilder.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+            <method name="WithLoggerConfiguration" signature="(Spekt.TestLogger.Core.LoggerConfiguration)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+            <method name="WithStore" signature="(Spekt.TestLogger.Core.ITestResultStore)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+            <method name="WithSerializer" signature="(Spekt.TestLogger.Core.ITestResultSerializer)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+            <method name="Subscribe" signature="(Microsoft.VisualStudio.TestPlatform.ObjectModel.Client.TestLoggerEvents)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+            <method name="WithFileSystem" signature="(Spekt.TestLogger.Platform.IFileSystem)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+            <method name="WithConsoleOutput" signature="(Spekt.TestLogger.Platform.IConsoleOutput)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+            <method name="Build" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Spekt.TestLogger.Core.TestRunCompleteWorkflow" filename="/home/runner/work/testlogger/testlogger/src/TestLogger/Core/TestRunCompleteWorkflow.cs" line-rate="1" branch-rate="1" complexity="NaN">
+          <methods>
+            <method name="Complete" signature="(Spekt.TestLogger.Core.ITestRun,Microsoft.VisualStudio.TestPlatform.ObjectModel.Client.TestRunCompleteEventArgs)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+            <method name="CreateResultsDirectory" signature="(Spekt.TestLogger.Platform.IFileSystem,System.String)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Spekt.TestLogger.Core.TestRunMessageWorkflow" filename="/home/runner/work/testlogger/testlogger/src/TestLogger/Core/TestRunMessageWorkflow.cs" line-rate="1" branch-rate="1" complexity="NaN">
+          <methods>
+            <method name="Message" signature="(Spekt.TestLogger.Core.ITestRun,Microsoft.VisualStudio.TestPlatform.ObjectModel.Logging.TestRunMessageEventArgs)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Spekt.TestLogger.Core.TestRunResultWorkflow" filename="/home/runner/work/testlogger/testlogger/src/TestLogger/Core/TestRunResultWorkflow.cs" line-rate="1" branch-rate="1" complexity="NaN">
+          <methods>
+            <method name="Result" signature="(Spekt.TestLogger.Core.ITestRun,Microsoft.VisualStudio.TestPlatform.ObjectModel.Logging.TestResultEventArgs)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Spekt.TestLogger.Core.TestRunStartWorkflow" filename="/home/runner/work/testlogger/testlogger/src/TestLogger/Core/TestRunStartWorkflow.cs" line-rate="1" branch-rate="1" complexity="NaN">
+          <methods>
+            <method name="Start" signature="(Spekt.TestLogger.Core.ITestRun,Microsoft.VisualStudio.TestPlatform.ObjectModel.Client.TestRunStartEventArgs)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Spekt.TestLogger.Extensions.DefaultTestAdapter" filename="/home/runner/work/testlogger/testlogger/src/TestLogger/Extensions/DefaultTestAdapter.cs" line-rate="1" branch-rate="1" complexity="NaN">
+          <methods>
+            <method name="TransformResults" signature="(System.Collections.Generic.List`1&lt;Spekt.TestLogger.Core.TestResultInfo&gt;,System.Collections.Generic.List`1&lt;Spekt.TestLogger.Core.TestMessageInfo&gt;)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Spekt.TestLogger.Extensions.MSTestAdapter" filename="/home/runner/work/testlogger/testlogger/src/TestLogger/Extensions/MSTestAdapter.cs" line-rate="1" branch-rate="1" complexity="NaN">
+          <methods>
+            <method name="TransformResults" signature="(System.Collections.Generic.List`1&lt;Spekt.TestLogger.Core.TestResultInfo&gt;,System.Collections.Generic.List`1&lt;Spekt.TestLogger.Core.TestMessageInfo&gt;)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Spekt.TestLogger.Extensions.NUnitTestAdapter" filename="/home/runner/work/testlogger/testlogger/src/TestLogger/Extensions/NUnitTestAdapter.cs" line-rate="1" branch-rate="1" complexity="NaN">
+          <methods>
+            <method name="TransformResults" signature="(System.Collections.Generic.List`1&lt;Spekt.TestLogger.Core.TestResultInfo&gt;,System.Collections.Generic.List`1&lt;Spekt.TestLogger.Core.TestMessageInfo&gt;)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Spekt.TestLogger.Extensions.TestAdapterFactory" filename="/home/runner/work/testlogger/testlogger/src/TestLogger/Extensions/TestAdapterFactory.cs" line-rate="1" branch-rate="1" complexity="NaN">
+          <methods>
+            <method name="CreateTestAdapter" signature="(System.String)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Spekt.TestLogger.Extensions.XunitTestAdapter" filename="/home/runner/work/testlogger/testlogger/src/TestLogger/Extensions/XunitTestAdapter.cs" line-rate="1" branch-rate="1" complexity="NaN">
+          <methods>
+            <method name="TransformResults" signature="(System.Collections.Generic.List`1&lt;Spekt.TestLogger.Core.TestResultInfo&gt;,System.Collections.Generic.List`1&lt;Spekt.TestLogger.Core.TestMessageInfo&gt;)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Spekt.TestLogger.Platform.ConsoleOutput" filename="/home/runner/work/testlogger/testlogger/src/TestLogger/Platform/ConsoleOutput.cs" line-rate="1" branch-rate="1" complexity="NaN">
+          <methods>
+            <method name="WriteMessage" signature="(System.String)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+            <method name="WriteError" signature="(System.String)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Spekt.TestLogger.Platform.FileSystem" filename="/home/runner/work/testlogger/testlogger/src/TestLogger/Platform/FileSystem.cs" line-rate="1" branch-rate="1" complexity="NaN">
+          <methods>
+            <method name="CreateDirectory" signature="(System.String)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+            <method name="ExistsDirectory" signature="(System.String)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+            <method name="RemoveDirectory" signature="(System.String)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+            <method name="Read" signature="(System.String)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+            <method name="Write" signature="(System.String,System.String)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+            <method name="Delete" signature="(System.String)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Spekt.TestLogger.TestLogger" filename="/home/runner/work/testlogger/testlogger/src/TestLogger/TestLogger.cs" line-rate="1" branch-rate="1" complexity="NaN">
+          <methods>
+            <method name=".ctor" signature="(Spekt.TestLogger.Core.ITestResultSerializer)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+            <method name=".ctor" signature="(Spekt.TestLogger.Platform.IFileSystem,Spekt.TestLogger.Platform.IConsoleOutput,Spekt.TestLogger.Core.ITestResultStore,Spekt.TestLogger.Core.ITestResultSerializer)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+            <method name="Initialize" signature="(Microsoft.VisualStudio.TestPlatform.ObjectModel.Client.TestLoggerEvents,System.String)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+            <method name="Initialize" signature="(Microsoft.VisualStudio.TestPlatform.ObjectModel.Client.TestLoggerEvents,System.Collections.Generic.Dictionary`2&lt;System.String,System.String&gt;)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+            <method name="CreateTestRun" signature="(Microsoft.VisualStudio.TestPlatform.ObjectModel.Client.TestLoggerEvents,Spekt.TestLogger.Core.LoggerConfiguration)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+        <class name="Spekt.TestLogger.Utilities.StringExtensions" filename="/home/runner/work/testlogger/testlogger/src/TestLogger/Utilities/StringExtensions.cs" line-rate="1" branch-rate="1" complexity="NaN">
+          <methods>
+            <method name="ReplaceInvalidXmlChar" signature="(System.String)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+            <method name="SubstringAfterDot" signature="(System.String)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+            <method name="SubstringBeforeDot" signature="(System.String)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+            <method name="ReplaceInvalidCharacterWithUniCodeEscapeSequence" signature="(System.Text.RegularExpressions.Match)" line-rate="1" branch-rate="1" complexity="NaN">
+              <lines />
+            </method>
+          </methods>
+          <lines />
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
