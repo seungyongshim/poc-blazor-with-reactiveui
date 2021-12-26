@@ -23,6 +23,6 @@ public class CounterViewModel : INotifyPropertyChanged
     protected void OnPropertyChanged(Action action, [CallerMemberName] string? name = null)
     {
         action?.Invoke();
-        PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
+        PropertyChanged?.Invoke(this, new(name));
     }
 }

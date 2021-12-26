@@ -1,16 +1,13 @@
 using System.ComponentModel;
 using BlazorApp1.Client.ViewModels;
+using Microsoft.AspNetCore.Components;
 
 namespace BlazorApp1.Client.Pages
 {
     public partial class Counter : IDisposable
     {
-        public Counter()
-        {
-            ViewModel = new CounterViewModel();
-        }
-
-        public CounterViewModel ViewModel { get; }
+        [Inject]
+        public CounterViewModel ViewModel { get; set; }
 
         public void Dispose()
         {
