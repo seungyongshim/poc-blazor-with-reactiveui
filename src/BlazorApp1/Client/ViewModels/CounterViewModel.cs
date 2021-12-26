@@ -10,7 +10,7 @@ public class CounterViewModel : INotifyPropertyChanged, IDisposable
     public int CurrentCount
     {
         get => _currentCount;
-        private set => OnPropertyChanged(() => _currentCount = value);
+        private set => OnPropertyChanged(ref _currentCount , value);
     }
 
     List<IDisposable> Disposes { get; } = new List<IDisposable>();
@@ -24,9 +24,12 @@ public class CounterViewModel : INotifyPropertyChanged, IDisposable
 
     public event PropertyChangedEventHandler? PropertyChanged;
 
-    protected void OnPropertyChanged(Action action, [CallerMemberName] string? name = null)
+    protected void OnPropertyChanged<T>(ref T store, T value,  [CallerMemberName] string? name = null)
+        where T : IEquatable<T>
     {
-        action?.Invoke();
+        if( EqualityComparer<T>.Default.Equals(store, value) ) return;
+
+        store = value;
         PropertyChanged?.Invoke(this, new(name));
     }
 
